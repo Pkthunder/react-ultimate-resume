@@ -1,54 +1,63 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john@gmail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
+        "name": "Jared Perreault",
+        "label": "JavaScript Engineer",
+        "picture": "me.jpg",
+        "email": "jared@perreault.dev",
+        "phone": "(978) 732 4024)",
+        "website": "jared.perreault.dev",
+        "summary": "Frontend-focused Fullstack Engineer & JavaScript Aficionado",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
+            "address": "",
+            "postalCode": "MA 02139",
+            "city": "Cambridge",
             "countryCode": "US",
-            "region": "California"
+            "region": "Massachusetts"
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
+                "network": "LinkedIn",
+                "url": "https://www.linkedin.com/in/jaredperreault/"
             }
         ]
     },
     "work": [
         {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
+            "name": "IFS Core",
+            "position": "Software Engineer",
+            "website": "https://www.ifscore.com/",
+            "startDate": "2020-03-10",
             "summary": "Description...",
-            "location": "Paris, France",
+            "location": "Boston, MA",
             "highlights": ["Started the company"]
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Amazon Alexa",
+            "position": "Web Development Engineer",
+            "website": "https://www.amazon.com/b?ie=UTF8&node=17934671011",
+            "startDate": "2018-05-07",
+            "endDate": "2020-02-21",
+            "summary": "I did things",
+            "location": "Cambridge, MA",
             "highlights": ["Started the company"]
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
-            "highlights": ["Started the company"]
+            "name": "MITRE Corp",
+            "position": "Senior Software Engineer",
+            "website": "https://www.mitre.org/",
+            "startDate": "2016-01-25",
+            "endDate": "2018-04-27",
+            "summary": "Started as an Intern before coming on full-time in 2016",
+            "location": "Bedford, MA",
+            "highlights": ["Started as an Intern before coming on full-time in 2016"]
+        },
+        {
+            "name": "U.S. Air Force",
+            "position": "Senior Airman (E-4)",
+            "website": "https://www.af.mil/",
+            "summary": "I proudly served my country for 7 years as a member of the Air Force",
+            "location": "Massachusetts",
+            "highlights": ["Deployed to Afghanistan in 2014", "Veteran"]
         }
     ],
     "volunteer": [
@@ -63,21 +72,12 @@
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
-        },
-        {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
+            "institution": "University of Massachusetts: Lowell",
+            "area": "Computer Science",
+            "studyType": "Bachelor's Degree",
+            "startDate": "2010-09-01",
+            "endDate": "2016-12-15",
+            "gpa": "3.25",
             "courses": ["DB1101 - Basic SQL"]
         }
     ],
@@ -100,40 +100,70 @@
     ],
     "skills": [
         {
-            "name": "Reactaaa",
+            "name": "React",
             "level": "Master",
             "value": 100,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "Angular",
+            "name": "Serverless",
             "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 60,
+            "keywords": ["Framework", "Servers", "Architecture"]
         },
         {
             "name": "NodeJS",
             "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 100,
+            "keywords": ["Javascript"]
         },
         {
-            "name": "Firebase",
+            "name": "MEAN Stack",
             "level": "Master",
-            "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 100,
+            "keywords": ["Framework", "Servers", "Architecture"]
         },
         {
-            "name": "Gmail",
+            "name": "Angular",
             "level": "Master",
-            "value": 20,
+            "value": 30,
             "keywords": ["HTML", "CSS", "Javascript"]
         },
         {
-            "name": "K8S",
+            "name": "jQuery",
+            "level": "Master",
+            "value": 45,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "GraphQL",
+            "level": "Master",
+            "value": 25,
+            "keywords": ["HTML", "CSS", "Javascript"]
+        },
+        {
+            "name": "DynamoDB",
             "level": "Master",
             "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["Database", "NoSQL"]
+        },
+        {
+            "name": "ElasticSearch",
+            "level": "Master",
+            "value": 40,
+            "keywords": ["Database", "NoSQL"]
+        },
+        {
+            "name": "MongoDB",
+            "level": "Master",
+            "value": 50,
+            "keywords": ["Database", "NoSQL"]
+        },
+        {
+            "name": "SQL",
+            "level": "Master",
+            "value": 30,
+            "keywords": ["Database", "SQL"]
         }
     ],
     "languages": [

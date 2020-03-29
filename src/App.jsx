@@ -1,3 +1,6 @@
+// require('json5/lib/register');
+// import 'json5/lib/register';
+
 import React, { useCallback, useState } from 'react';
 import { FormattedMessage } from 'react-intl';
 import { createUseStyles } from 'react-jss';
@@ -22,7 +25,7 @@ const mergeFunction = (objValue, srcValue, key) => {
     return undefined;
 };
 
-const mode = 'edit';
+const mode = 'readOnly';
 function App() {
     const classes = useStyles();
     const [data, setData] = useState(JsonStub);
@@ -54,6 +57,7 @@ function App() {
             onCustomizationChanged={onCustomizationChanged}
             options={{
                 // side: 'back',
+                locale: 'en',
                 apiKeys: {
                     giphy: process.env.REACT_APP_GIPHY
                 },
